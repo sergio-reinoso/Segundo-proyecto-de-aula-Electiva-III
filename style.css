@@ -7,13 +7,13 @@
 */
 :root {
     /*Colores*/
-    --bitcoin-orange: #F7931A;
+    --bitcoin-orange: rgba(247, 147, 26, 1);
     --soft-orange: #FFE9D5;
-    --secondary-blue: #1A9AF7;
+    --secondary-blue: rgba(26, 154, 247, 1);
     --soft-blue: #e7f5ff;
-    --warm-black: #201E1C;
+    --warm-black: hsl(30, 8%, 13%);
     --black: #282623;
-    --grey: #BABABA;
+    --grey: hsl(0, 0%, 73%);
     --off-white: #FAF8F7;
     --just-white: #ffffff; 
 }
@@ -143,14 +143,7 @@ main {
     background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.product-detail--batata-logo {
-    position: absolute;
-    width: 40px;
-    height: 25px;
-    top: -10px;
-    left: calc(50% - 20px);
-    background-image: url(./assets/icons/batata.svg);
-}
+
 .product-detail--title {
     width: 90%;
     min-width: 288px;
